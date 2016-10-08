@@ -16,6 +16,15 @@ html {
 
 .navbar{
     font-size: 20px;
+    background-color: white;
+
+}
+.navbar-default .navbar-nav>li>a{
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    border-bottom: 3px solid red;
 }
 
 .navbar-brand {
