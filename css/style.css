@@ -83,6 +83,9 @@ html {
     align-items: center;
 }
 
+.fotografos-section{
+    background-color: #f8bf12;
+}
 .fotografos-section h1{
     text-align: center;
     font-weight: bold;
@@ -90,13 +93,28 @@ html {
     color: darkslategray;
 }
 
+#owl-demo{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
 #owl-demo .item{
-  margin: 3px;
+  margin: 26px;
 }
 #owl-demo .item img{
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 225px;
+  height: 225px;
+}
+
+.galeria-section{
+    background-color: #09459f;
+}
+.galeria-section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
 }
 
 .carousel,
