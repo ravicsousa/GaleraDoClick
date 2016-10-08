@@ -61,6 +61,7 @@ html {
 .somos-section {
     background: red;
     color: white;
+    height: auto;
 }
 
 .somos-section p{
@@ -74,6 +75,12 @@ html {
 #somos-cabecalho{
     font-size: 20px;
     font-weight: bold;
+}
+
+#imgsomos{
+    height: auto;
+    display: flex;
+    align-items: center;
 }
 
 .carousel,
