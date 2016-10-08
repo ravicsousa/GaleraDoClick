@@ -83,6 +83,22 @@ html {
     align-items: center;
 }
 
+.fotografos-section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: darkslategray;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
 .carousel,
 .item,
 .active {
