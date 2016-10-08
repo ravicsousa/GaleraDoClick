@@ -47,8 +47,10 @@ html {
     }
 }
 
-.intro-section {
-    background: #fff;
+.somos-section {
+    background: red;
+    height: 100%;
+    text-decoration-color: white;
 }
 
 .carousel,
