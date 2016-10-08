@@ -21,17 +21,28 @@ html {
 }
 .navbar-default .navbar-nav>li>a{
     color: black;
+    /* gambiarra para não aumentar a autura da nav quando der hover num item \o/ */
+    border-bottom: 3px solid white;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
     border-bottom: 3px solid red;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: white;
+    border-bottom: 3px solid red;
+}
+
 .navbar-brand {
   float: left;
   height: 0px;
-  padding: 0px 0px;
+  padding-top: 8px;
   line-height: 0px;
+}
+
+#logo-nav{
+    padding-bottom: 10px;
 }
 
 @media(min-width:767px) {
@@ -50,7 +61,20 @@ html {
 .somos-section {
     background: red;
     height: 100%;
-    text-decoration-color: white;
+    color: white;
+}
+
+.somos-section p{
+    padding-bottom: 25px;
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#somos-cabecalho{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .carousel,
