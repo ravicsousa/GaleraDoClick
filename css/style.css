@@ -93,6 +93,23 @@ html {
     color: black;
 }
 
+.contact-section {
+    background-color: darkblue;
+    color: white;
+    height: auto;
+}
+
+.contact-section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+#gmap_canvas{
+    color: black;
+}
+
 #owl-demo{
    padding-left: 20px;
    padding-right: 20px;
@@ -126,6 +143,8 @@ html {
 .carousel-inner {
     height: 100%;
 }
+
+#b
 
 /* Background images are set within the HTML using inline CSS, not here */
 
