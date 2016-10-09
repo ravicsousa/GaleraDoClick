@@ -60,8 +60,8 @@ html {
 }
 
 .somos-section {
-    background: red;
-    color: white;
+    background: white;
+    color: black;
     height: auto;
 }
 
@@ -73,25 +73,24 @@ html {
     text-justify: inter-word;
 }
 
-#somos-cabecalho{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-#imgsomos{
-    height: auto;
-    display: flex;
-    align-items: center;
-}
-
-.fotografos-section{
-    background-color: #f8bf12;
-}
-.fotografos-section h1{
+.somos-section h1{
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
-    color: darkslategray;
+    font-size: 35px;
+    color: black;
+}
+
+.entenda-section {
+    background: white;
+    color: black;
+    height: auto;
+}
+
+.entenda-section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
 }
 
 #owl-demo{
